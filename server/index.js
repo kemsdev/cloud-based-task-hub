@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001","kems-cloud-based-task-hub.netlify.app"],
+    origin: ["http://localhost:3000", "http://localhost:3001","https://kems-cloud-based-task-hub.netlify.app"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
