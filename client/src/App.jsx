@@ -15,7 +15,7 @@ const TaskDetails = React.lazy(() => import("./pages/TaskDetails"));
 const Tasks = React.lazy(() => import("./pages/Tasks"));
 const Trash = React.lazy(() => import("./pages/Trash"));
 const Users = React.lazy(() => import("./pages/Users"));
-const Dashboard = React.lazy(() => import("./pages/Dashboard"));
+const Dashboard = React.lazy(() => import("./pages/dashboard"));
 
 function Layout() {
   const { user } = useSelector((state) => state.auth);
